@@ -1,0 +1,4 @@
+POO:
+ -> clases abstractas no se instancian.
+    -> los metodos abstractos llevan () al final.
+ -> herencia
