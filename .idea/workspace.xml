@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600f35c9-7dad-43b5-85ab-1688d4c86d05" name="Changes" comment="subido sin errores">
+    <list default="true" id="600f35c9-7dad-43b5-85ab-1688d4c86d05" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen22/Carnico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen22/Carnico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/examen22/Lacteo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen22/Lacteo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/examen.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/examen22/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen22/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/examen22/MyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen22/MyList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/examen22/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/examen22/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/herencia/Arbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/herencia/Arbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/herencia/Palmera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/herencia/Palmera.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/herencia/SerVivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/herencia/SerVivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/herencia/TipoHoja.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/herencia/TipoHoja.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,5 +120,16 @@
     <MESSAGE value="de ahora" />
     <MESSAGE value="subido sin errores" />
     <option name="LAST_COMMIT_MESSAGE" value="subido sin errores" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/examen22/MyList.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

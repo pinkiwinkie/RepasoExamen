@@ -2,3 +2,11 @@ POO:
  -> clases abstractas no se instancian.
     -> los metodos abstractos llevan () al final.
  -> herencia
+ -> en las interfaces solo hay metodos.(son como si fueran abstractos).
+
+ *Si la clase es abstracta e implementa una interfaz no te obliga a
+   implementar sus metodos, pero si que obliga a los que heredan a implementarlo.
+
+ *Si los metodos de la interfaz los implementas en la clase abstracta,
+   las clases que heredan ya no se implementa obligatoriamente
+   porque al heredar, los hereda tambien.

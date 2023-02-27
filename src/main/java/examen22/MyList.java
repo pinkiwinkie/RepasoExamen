@@ -38,12 +38,14 @@ public class MyList<T> {
 //        return vector;
 //    }
 
+
     public void addHead(T element) {
         Node<T> node = new Node<>(element);
         if (size() == 0) {
             tail = node;
             head = node;
-        } else {
+
+        }else{
             node.setNext(head);
             head = node;
         }

@@ -1,6 +1,7 @@
 package examen22;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,17 +24,17 @@ public class Main {
         productoMyList.addTail(lacteo1);
         productoMyList.addTail(lacteo2);
 
-        Map<Integer, Producto> listaFinal = new LinkedHashMap<>();
+        Map<Integer, Producto> listaFinal = new TreeMap<>();
         listaFinal = convert(productoMyList);
         System.out.println(listaFinal);
-
-
     }
 
     public static Map<Integer, Producto> convert(MyList<Producto> productoMyList){
-//        List<Producto> list = new ArrayList<>();
+
+        List<Producto> list = new ArrayList<>();
+
         Map<Integer, Producto> resultsMap = new LinkedHashMap<>();
-//        list.stream().collect(Collectors.toMap(Producto::getCode,Producto::getName));
+//        list.stream().collect(Collectors.toMap(Producto::getCode,Producto::getClass));
         for (int i = 0; i < productoMyList.size(); i++) {
             resultsMap.put(productoMyList.get(i).getCode(), productoMyList.get(i));
         }
