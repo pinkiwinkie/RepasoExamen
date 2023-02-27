@@ -28,9 +28,9 @@ public class Main {
 
 
     }
-    public Map<Integer, String> convert(MyList<Producto> productoMyList){
-        Map<Integer, String> resultsMap =
-
-    }
+//    public Map<Integer, String> convert(MyList<Producto> productoMyList){
+//        Map<Integer, String> resultsMap =
+//
+//    }
 
 }
