@@ -1,9 +1,11 @@
 package examen22;
 
+import java.util.Comparator;
+
 public class Lacteo extends Producto{
     private int capacity;
 
-    public Lacteo(String name, int code, float precioPorKilo, int capacity) {
+    public Lacteo(String name, int code, int precioPorKilo, int capacity) {
         super(name, code, precioPorKilo);
         this.capacity = capacity;
     }

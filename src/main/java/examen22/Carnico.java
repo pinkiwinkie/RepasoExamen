@@ -4,7 +4,7 @@ public class Carnico extends Producto{
     private Tipo carne;
     private float weight;
 
-    public Carnico(String name, int code, float precioPorKilo, Tipo carne, float weight) {
+    public Carnico(String name, int code, int precioPorKilo, Tipo carne, float weight) {
         super(name, code, precioPorKilo);
         this.carne = carne;
         this.weight = weight;

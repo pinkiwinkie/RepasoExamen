@@ -1,5 +1,7 @@
 package examen22;
 
+import java.lang.reflect.Array;
+
 public class MyList<T> {
     private int size;
     private Node<T> head, tail;
@@ -9,6 +11,32 @@ public class MyList<T> {
         head = null;
         tail = null;
     }
+
+    public T get(int index) {
+        T result = null;
+        if (size == 0 || index < 0 || index >= size)
+            return result;
+        Node<T> node = head;
+        while (index > 0) {
+            node = node.getNext();
+            index--;
+        }
+//        for (int i = 0; i <= index; i++) {
+//            node = node.getNext();
+//        }
+        result = node.getElement();
+        return result;
+    }
+
+//    public T[] toArray(Class c) {
+//        T[] vector = (T[]) Array.newInstance(c, size);
+//        Node node = head;
+//        for (int i = 0; i < size; i++) {
+//            vector[i] = (T) node.getElement();
+//            node = node.getNext();
+//        }
+//        return vector;
+//    }
 
     public void addHead(T element) {
         Node<T> node = new Node<>(element);
